@@ -1,0 +1,28 @@
+.game-board{
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(188, 222, 52);
+    margin: 20% auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('src/images/grass.png');
+}
+.game-board div {
+    width: 20px;
+    height: 20px;
+    box-sizing:border-box
+}
+.game-control{
+    text-align: center;
+    margin-top: 10px;
+}
+.snake{
+    background-color: #004cfd ;/*#71d056;*/
+    border-radius: 30%;
+}
+.apple{
+    background-image: url('src/images/apple.png') ;
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+}
